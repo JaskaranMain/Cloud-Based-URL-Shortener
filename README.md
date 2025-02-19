@@ -43,7 +43,7 @@ AWS SDK for Java (To interact with AWS services)
 
 ⚙️ How It Works
 
-1️⃣ User sends a long URL via REST API (POST /shorten)
+1️⃣ User sends a long URL via REST API (POST /shorten)</br>
 2️⃣ A hashing function generates a short URL
 3️⃣ The short URL is stored in AWS DynamoDB
 4️⃣ User accesses the short URL (GET /{shortURL}), and the original URL is retrieved
