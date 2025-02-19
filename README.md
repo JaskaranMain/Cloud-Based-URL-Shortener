@@ -44,14 +44,14 @@ AWS SDK for Java (To interact with AWS services)
 ⚙️ How It Works
 
 1️⃣ User sends a long URL via REST API (POST /shorten)</br>
-2️⃣ A hashing function generates a short URL
-3️⃣ The short URL is stored in AWS DynamoDB
-4️⃣ User accesses the short URL (GET /{shortURL}), and the original URL is retrieved
-5️⃣ AWS Lambda processes the request without needing a server
-6️⃣ API Gateway acts as the entry point for API calls
+2️⃣ A hashing function generates a short URL</br>
+3️⃣ The short URL is stored in AWS DynamoDB</br>
+4️⃣ User accesses the short URL (GET /{shortURL}), and the original URL is retrieved</br>
+5️⃣ AWS Lambda processes the request without needing a server</br>
+6️⃣ API Gateway acts as the entry point for API calls</br>
 
 🛠️ AWS Services Used
-
+</br>
 AWS Lambda → Serverless execution
 
 DynamoDB → NoSQL database
