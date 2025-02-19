@@ -5,43 +5,38 @@ Cloud-Based URL Shortener (Java + AWS)
 
 This is a Cloud-Based URL Shortener built using Java, AWS Lambda, DynamoDB, and API Gateway. It converts long URLs into short ones (similar to Bit.ly) and retrieves the original URL when accessed. This project demonstrates AWS cloud integration with minimal Spring Boot usage, making it a great addition to your resume for Cloud/Software Engineering roles.
 
-🛠️ Tech Stack
+<h2>🛠️ Tech Stack</h2>
 
 Java (Core Java, Collections, Hashing)
-
 Spring Boot (Minimal - for REST APIs)
-
 AWS Lambda (Serverless processing)
-
 DynamoDB (NoSQL database for storage)
-
 API Gateway (Exposes REST APIs)
-
 AWS SDK for Java (To interact with AWS services)
 
-🎯 Features
+<h2>🎯 Features</h2>
 
-✅ Shortens long URLs into unique short URLs
-✅ Stores short URLs in AWS DynamoDB
-✅ Retrieves original URLs when accessed
-✅ Uses AWS Lambda for serverless execution
-✅ API Gateway to expose APIs securely
-✅ Spring Boot for REST API handling
-✅ Secure API calls with JWT authentication (Optional)
+✅ Shortens long URLs into unique short URLs</br>
+✅ Stores short URLs in AWS DynamoDB</br>
+✅ Retrieves original URLs when accessed</br>
+✅ Uses AWS Lambda for serverless execution</br>
+✅ API Gateway to expose APIs securely</br>
+✅ Spring Boot for REST API handling</br>
+✅ Secure API calls with JWT authentication (Optional)</br>
 
-📁 Project Structure
+<h2>📁 Project Structure</h2>
 
-/url-shortener
-   ├── src/main/java/com/urlshortener
-   │   ├── controller  # Handles API requests
-   │   ├── service     # URL shortening logic
-   │   ├── repository  # DynamoDB integration
-   │   ├── model       # Data models
-   │   ├── UrlShortenerApplication.java  # Main application file
-   ├── pom.xml  # Dependencies
-   ├── README.md  # Project documentation
+/url-shortener </br>
+   ├── src/main/java/com/urlshortener </br>
+   │   ├── controller  # Handles API requests </br>
+   │   ├── service     # URL shortening logic </br>
+   │   ├── repository  # DynamoDB integration </br>
+   │   ├── model       # Data models </br>
+   │   ├── UrlShortenerApplication.java  # Main application file </br>
+   ├── pom.xml  # Dependencies </br>
+   ├── README.md  # Project documentation </br>
 
-⚙️ How It Works
+<h2>⚙️ How It Works</h2>
 
 1️⃣ User sends a long URL via REST API (POST /shorten)</br>
 2️⃣ A hashing function generates a short URL</br>
@@ -50,27 +45,25 @@ AWS SDK for Java (To interact with AWS services)
 5️⃣ AWS Lambda processes the request without needing a server</br>
 6️⃣ API Gateway acts as the entry point for API calls</br>
 
-🛠️ AWS Services Used
+<h2>🛠️ AWS Services Used</h2>
 </br>
 AWS Lambda → Serverless execution
-
 DynamoDB → NoSQL database
-
 API Gateway → Exposes REST APIs
-
 IAM Roles → Secure access management
-
-🔥 Future Improvements
-
+</br>
+<h2>🔥 Future Improvements</h2>
+</br>
 Implement Redis caching for faster lookups
-
+</br>
 Add custom short URLs instead of generated ones
-
+</br>
 Track URL analytics using AWS CloudWatch
-
-🎯 Contributing
-
+</br>
+<h2>🎯 Contributing</h2>
+</br>
 Feel free to fork this repo, open issues, or submit pull requests! 🚀
-
-
+<hr>
+</br>
 ⭐ If you found this project useful, give it a star on GitHub! ⭐
+<hr>
