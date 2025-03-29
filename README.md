@@ -14,7 +14,9 @@ DynamoDB (NoSQL database for storage)
 API Gateway (Exposes REST APIs)
 AWS SDK for Java (To interact with AWS services)
 
+
 <h2>🎯 Features</h2>
+
 
 ✅ Shortens long URLs into unique short URLs</br>
 ✅ Stores short URLs in AWS DynamoDB</br>
