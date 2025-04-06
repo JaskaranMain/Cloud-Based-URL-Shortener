@@ -1,5 +1,5 @@
 # Cloud-Based-URL-Shortener
-Cloud-Based URL Shortener (Java + AWS)
+Cloud-Based URL Shortener. (Java + AWS)
 
 <h2>🚀 Overview</h2>
 
