@@ -3,7 +3,7 @@ Cloud-Based URL Shortener. (Java + AWS)
 
 <h2>🚀 Overview</h2>
 
-This is a Cloud-Based URL Shortener built using Java, AWS Lambda, DynamoDB, and API Gateway. It converts long URLs into short ones (similar to Bit.ly) and retrieves the original URL when accessed. This project demonstrates AWS cloud integration with minimal Spring Boot usage, making it a great addition to your resume for Cloud/Software Engineering roles.
+This is a Cloud-Based URL Shortener built using Java, AWS Lambda, DynamoDB, and API Gateway. It converts long URLs into short ones (similar to Bit.ly) and retrieves the original URL when accessed. This project demonstrates AWS cloud integration with minimal Spring Boot usage.
 
 <h2>🛠️ Tech Stack</h2>
 
